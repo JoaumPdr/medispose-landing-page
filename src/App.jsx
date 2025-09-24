@@ -103,7 +103,7 @@ const MeDispose = () => {
       description: "Desenvolvedor Full-Stack especializado em database e ciência de dados",
       education: "Graduando em Engenharia de Software pelo Inatel",
       responsibilities: ["Desenvolvimento Full-Stack", "Arquitetura de Database", "Data Science & Analytics"],
-      tech: ["Vue.js", "Java", "SpringBoot", "SQLite"],
+      tech: ["Node", "Java", "SpringBoot", "SQLite"],
       linkedin: "https://www.linkedin.com/in/joaumpdr/",
       github: "https://github.com/JoaumPdr",
       color: "from-blue-500 to-purple-600"
@@ -925,8 +925,8 @@ const MeDispose = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
               {[
                 { name: "Vue.js", icon: Code, desc: "Frontend", color: "text-green-600 bg-green-50" },
-                { name: "Java", icon: Server, desc: "Backend", color: "text-red-600 bg-red-50" },
-                { name: "SpringBoot", icon: Database, desc: "Framework", color: "text-blue-600 bg-blue-50" },
+                { name: "Javascript", icon: Server, desc: "Backend", color: "text-red-600 bg-red-50" },
+                { name: "Node + express", icon: Database, desc: "Framework", color: "text-blue-600 bg-blue-50" },
                 { name: "SQLite", icon: Database, desc: "Database", color: "text-purple-600 bg-purple-50" }
               ].map((tech, index) => (
                 <motion.div 
